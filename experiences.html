@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Our Experience | Digital Doorway</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="navbar"><a class="brand" href="index.html"><span>✦</span><div>Digital<br>Doorway</div></a><button class="menu-toggle">☰</button><nav><a href="index.html">Home</a><a href="lessons.html">Lessons</a><a href="resources.html">Resources</a><a class="active" href="experiences.html">Our Experience</a><select id="language"><option value="en">English</option><option value="ur">اردو</option><option value="zh">中文</option></select></nav></header>
+
+<main class="page">
+  <section class="experience-hero">
+    <div><p class="eyebrow dark">BEHIND THE LESSONS</p><h1>Our Experience</h1><p class="lead">Digital literacy is more than learning buttons and apps. It is about watching confidence grow. Share the moments, stories, and lessons that have shaped our teaching.</p></div>
+    <div class="quote-card">“The goal isn't to teach people to depend on us. It's to help them become confident enough to do it themselves.”</div>
+  </section>
+
+  <section class="story-grid">
+    <article class="story-card"><span>01</span><h2>Why we teach</h2><p>Write about why digital literacy matters to your community and what inspired your workshops.</p></article>
+    <article class="story-card yellow-card"><span>02</span><h2>What we learned</h2><p>Share teaching challenges, breakthroughs, funny moments, and lessons you would pass on to another instructor.</p></article>
+    <article class="story-card pink-card"><span>03</span><h2>Moments that mattered</h2><p>Show how a learner's confidence changed — from their first click to completing something independently.</p></article>
+  </section>
+
+  <section class="photo-section">
+    <div class="section-heading"><div><p class="eyebrow dark">FROM OUR WORKSHOPS</p><h2>Photos & stories</h2></div></div>
+    <div id="experienceGallery" class="gallery"></div>
+    <label class="button yellow upload-label gallery-upload">＋ Add photos</label>
+    <input id="experiencePhotos" type="file" accept="image/*" multiple hidden>
+  </section>
+
+  <section class="story-form">
+    <p class="eyebrow dark">ADD YOUR STORY</p><h2>Share an experience</h2>
+    <form id="storyForm">
+      <input id="storyTitle" required placeholder="Story title">
+      <input id="storyDate" type="text" placeholder="Date or workshop (optional)">
+      <textarea id="storyText" required rows="6" placeholder="Tell us what happened, what you learned, or what made this moment special..."></textarea>
+      <button class="button navy" type="submit">Publish story →</button>
+    </form>
+  </section>
+</main>
+<footer><span>✦ Digital Doorway</span><span>Digital skills, one step at a time.</span></footer>
+<script src="script.js"></script><script src="i18n.js"></script>
+</body>
+</html>
